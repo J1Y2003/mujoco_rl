@@ -1,0 +1,13 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment (Very important!)
+mujoco_env/
+venv/
+env/
+
+# MuJoCo/System caches
+.DS_Store
+.cache/
