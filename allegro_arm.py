@@ -27,27 +27,22 @@ scene_xml = """
 </mujoco>
 """
 
-# 1. Grab the arm
 arm_dir = os.path.dirname(panda_mj_description.MJCF_PATH)
 arm_path = os.path.join(arm_dir, "panda_nohand.xml")
 
-# 2. Dynamically search for the correct right hand XML
 hand_dir = os.path.dirname(allegro_hand_mj_description.MJCF_PATH)
 all_files = os.listdir(hand_dir)
 right_hand_files = [f for f in all_files if 'right' in f and 'scene' not in f and f.endswith('.xml')]
 hand_path = os.path.join(hand_dir, right_hand_files[0])
 
-# 3. Load specs
 scene_spec = mujoco.MjSpec.from_string(scene_xml)
 arm_spec = mujoco.MjSpec.from_file(arm_path)
 hand_spec = mujoco.MjSpec.from_file(hand_path)
 
-# 4. THE FIX: Attach the child spec directly via the parent spec's method
 attached_frame = arm_spec.attach(hand_spec, site="attachment_site", prefix="hand_")
 attached_frame.pos = [0.0, 0.0, 0.095]
 attached_frame.quat = [0.0, 0.7071, 0.0, 0.7071]
 
-# 5. Compile the physics model
 scene_spec.attach(arm_spec, site="robot_mount", prefix="franka_")
 model = scene_spec.compile()
 data = mujoco.MjData(model)
@@ -66,7 +61,6 @@ data.ctrl[:] = default_qpos
 
 mujoco.mj_forward(model, data)
 
-# 6. Launch it
 with mujoco.viewer.launch_passive(model, data) as viewer:
     while viewer.is_running():
         
