@@ -1,0 +1,32 @@
+<mujoco>
+    <geom type="mesh" mesh="drill_col_0" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_1" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_2" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_3" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_4" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_5" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_6" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_7" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_8" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_9" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_10" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_11" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_12" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_13" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_14" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_15" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_16" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_17" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_18" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_19" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_20" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_21" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_22" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_23" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_24" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_25" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_26" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_27" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_28" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+    <geom type="mesh" mesh="drill_col_29" rgba="1 1 1 0" friction="1.5 0.05 0.01" margin="0.001"/>
+</mujoco>

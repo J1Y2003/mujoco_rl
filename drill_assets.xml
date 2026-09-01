@@ -1,0 +1,32 @@
+<mujoco>
+    <mesh name="drill_col_0" file="obj/drill/drill_col_0.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_1" file="obj/drill/drill_col_1.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_2" file="obj/drill/drill_col_2.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_3" file="obj/drill/drill_col_3.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_4" file="obj/drill/drill_col_4.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_5" file="obj/drill/drill_col_5.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_6" file="obj/drill/drill_col_6.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_7" file="obj/drill/drill_col_7.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_8" file="obj/drill/drill_col_8.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_9" file="obj/drill/drill_col_9.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_10" file="obj/drill/drill_col_10.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_11" file="obj/drill/drill_col_11.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_12" file="obj/drill/drill_col_12.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_13" file="obj/drill/drill_col_13.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_14" file="obj/drill/drill_col_14.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_15" file="obj/drill/drill_col_15.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_16" file="obj/drill/drill_col_16.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_17" file="obj/drill/drill_col_17.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_18" file="obj/drill/drill_col_18.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_19" file="obj/drill/drill_col_19.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_20" file="obj/drill/drill_col_20.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_21" file="obj/drill/drill_col_21.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_22" file="obj/drill/drill_col_22.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_23" file="obj/drill/drill_col_23.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_24" file="obj/drill/drill_col_24.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_25" file="obj/drill/drill_col_25.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_26" file="obj/drill/drill_col_26.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_27" file="obj/drill/drill_col_27.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_28" file="obj/drill/drill_col_28.obj" scale="0.014 0.014 0.014"/>
+    <mesh name="drill_col_29" file="obj/drill/drill_col_29.obj" scale="0.014 0.014 0.014"/>
+</mujoco>

@@ -12,3 +12,7 @@ smmap==5.0.2
 tqdm==4.67.3
 typing_extensions==4.15.0
 zipp==3.23.0
+pygame==2.6.1
+pynput==1.8.2
+trimesh==5.0.0
+vhacdx==0.0.10

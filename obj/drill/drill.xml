@@ -1,0 +1,15 @@
+<mujoco model="drill">
+    <asset>
+        <mesh name="drill_mesh" file="drill.obj" scale="1 1 1"/>
+    </asset>
+
+    <worldbody>
+        <light diffuse=".5 .5 .5" pos="0 0 3" dir="0 0 -1"/>
+        
+        <body name="drill_body" pos="0 0 0.2">
+            <freejoint/>
+            <geom type="mesh" mesh="drill_mesh" rgba="0.2 0.2 0.2 1" mass="1.5"/>
+            
+            </body>
+    </worldbody>
+</mujoco>
