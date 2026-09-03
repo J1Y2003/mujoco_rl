@@ -14,3 +14,4 @@ env/
 
 # Export data
 export/
+rl_training_data/
