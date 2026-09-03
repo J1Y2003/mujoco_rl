@@ -11,3 +11,6 @@ env/
 # MuJoCo/System caches
 .DS_Store
 .cache/
+
+# Export data
+export/

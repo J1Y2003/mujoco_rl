@@ -11,9 +11,16 @@ package structure, build step, or test suite — scripts are run directly and it
 
 ## Environment setup
 
-```bash
-python3 -m venv mujoco_env
-source mujoco_env/bin/activate
+This project runs on Windows (PowerShell) with an NVIDIA/CUDA-capable GPU. There is no
+GPU-compute code (no PyTorch, no CUDA kernels) — the GPU is only used transparently by the
+system's OpenGL driver for the MuJoCo viewer, so no special CUDA setup is required.
+
+Use Python 3.12 — the pinned package versions (mujoco, numpy, vhacdx) don't yet ship prebuilt
+Windows wheels for newer interpreters (e.g. 3.14), which would otherwise force a from-source build.
+
+```powershell
+py -3.12 -m venv mujoco_env
+.\mujoco_env\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
 
@@ -24,15 +31,15 @@ you touch the affected files:
 
 ## Running scripts
 
-There is no test suite, linter, or build. Everything is run directly with `python3`:
+There is no test suite, linter, or build. Everything is run directly with `python`:
 
-```bash
-python3 src/shadow_arm_teleop.py       # Franka + Shadow Hand teleop, records episodes
-python3 src/gripper_arm_teleop.py      # Franka + parallel gripper teleop
-python3 src/shadow_arm.py              # Franka + Shadow Hand, static/no-input viewer
-python3 src/intro.py                   # minimal MuJoCo viewer smoke test
-python3 src/play_data.py --data_path rl_training_data/<run_dir>/episode_0.json
-python3 asdf.py                        # regenerates drill_assets.xml / drill_collisions.xml
+```powershell
+python src\shadow_arm_teleop.py       # Franka + Shadow Hand teleop, records episodes
+python src\gripper_arm_teleop.py      # Franka + parallel gripper teleop
+python src\shadow_arm.py              # Franka + Shadow Hand, static/no-input viewer
+python src\intro.py                   # minimal MuJoCo viewer smoke test
+python src\play_data.py --data_path rl_training_data\<run_dir>\episode_0.json
+python asdf.py                        # regenerates drill_assets.xml / drill_collisions.xml
 ```
 
 Teleop scripts open an interactive `mujoco.viewer` window and read live keyboard/gamepad input in
